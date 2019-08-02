@@ -1,0 +1,17 @@
+{
+    "originInput": "kara",
+    "originShortName": "Karaganda",
+    "originSelection": "Karaganda, Kazakhstan",
+    "destinationInput": "Paris Charl",
+    "destinationSelection": "Charles de Gaulle",
+    "passengers": {
+        "adults": 2,
+        "seniors": 1,
+        "youth": 1,
+        "child": 1,
+        "seatInfant": 1,
+        "lapInfant": 1
+    },
+    "Departure": "08/05/2019",
+    "Arrival": "08/12/2019"
+}
