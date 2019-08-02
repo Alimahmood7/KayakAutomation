@@ -49,7 +49,7 @@ describe('kayak', () => {
             .first().should('contain.text', travellersContent);
       });
       // tslint:disable-next-line: typedef
-      it('set start date', function () {
+      it('set departure date', function () {
          // tslint:disable-next-line: no-invalid-this
          const { Departure } = this.flight as IFlight;
          const depDate = Cypress.moment(Departure).format('MMM M/D');
@@ -58,7 +58,7 @@ describe('kayak', () => {
          getElementById('depart-input').invoke('text').should('eq', ALIASES.DEPARTURE_DATE);
       });
       // tslint:disable-next-line: typedef
-      it('set end date', function () {
+      it('set arrival date', function () {
          // tslint:disable-next-line: no-invalid-this
          const { Arrival } = this.flight as IFlight;
          const arrDate = Cypress.moment(Arrival).format('MMM M/D');
